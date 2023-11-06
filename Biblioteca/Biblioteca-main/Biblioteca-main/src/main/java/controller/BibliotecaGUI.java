@@ -51,13 +51,13 @@ public class BibliotecaGUI extends JFrame {
 
         cadastro.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                CadastroDeLivroController cadastroDoLivro = new CadastroDeLivroController();
+                CadastroDeLivroControllerGUI cadastroDoLivro = new CadastroDeLivroControllerGUI();
             }
         });
 
         pesquisa.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                PesquisaDeLivroController pesquisaDoLivro = new PesquisaDeLivroController();
+                PesquisaDeLivroControllerGUI pesquisaDoLivro = new PesquisaDeLivroControllerGUI();
             }
         });
 
@@ -105,13 +105,13 @@ public class BibliotecaGUI extends JFrame {
 
         botao1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                CadastroDeLivroController cadastroDoLivro = new CadastroDeLivroController();
+                CadastroDeLivroControllerGUI cadastroDoLivro = new CadastroDeLivroControllerGUI();
             }
         });
 
         botao2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                PesquisaDeLivroController pesquisaDoLivro = new PesquisaDeLivroController();
+                PesquisaDeLivroControllerGUI pesquisaDoLivro = new PesquisaDeLivroControllerGUI();
             }
         });
 
